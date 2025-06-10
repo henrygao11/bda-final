@@ -1,10 +1,13 @@
 # bda-final
+
 ## RUL Prediction with Random Forest Regression on CMAPSS FD004 dataset
-- K-Means for fault mode clustering of train set and SVM for fault mode classification of test set
-- Random forest for RUL prediction
+- Piecewise RUL degeneration function with early RUL = 125
+- Classification of operating conditions
+- K-Means for fault modes target of the train set and SVM for fault modes classification of the test set
+- Random forest regression for RUL prediction
 - 2 baseline models:
-  - RF with raw sensors' signal
-  - Decision tree regression with same feature engineering
+  - RF regression with raw sensors' signal
+  - Decision tree regression with the same feature engineering
 
 ## Fault Classification with SVM on CWRU dataset
 - Wavelet packet decomposition for signal processing and energy for featuring engineering
